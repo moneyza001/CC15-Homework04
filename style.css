@@ -1,0 +1,115 @@
+body {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    font-family: 'Roboto', sans-serif
+}
+
+.navRight {
+    display: flex;
+    justify-content: end;
+}
+
+.content {
+    text-align: center;
+    color: #fff;
+}
+
+.content>h1:first-child {
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+
+.content>h1:first-child,
+p:first-child {
+    letter-spacing: 2px;
+}
+
+.load {
+    position: relative;
+    width: 400px;
+    margin: auto;
+}
+
+.load1 {
+    position: absolute;
+    margin: auto;
+    background-color: #fff;
+    width: 400px;
+    height: 10px;
+}
+
+.load2 {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    background-color: rgb(15, 236, 236);
+    width: 280px;
+    height: 10px;
+}
+
+.percent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.myButton {
+    background-color: rgb(15, 236, 236);
+    display: inline-block;
+    cursor: pointer;
+    color: #000;
+    font-size: 16px;
+    border-radius: 2px;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: white;
+    margin: 30px auto 0px;
+}
+
+nav {
+    margin: 20px 32px;
+}
+
+nav>a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+footer p {
+    color: #fff;
+
+}
+
+
+.footPic img {
+    width: auto;
+    height: 30px;
+    margin: 30px 4px 26px 0px;
+    padding: 2px;
+    border: 1px #fff solid;
+    border-radius: 50%;
+    /* background-size: auto; */
+}
+
+
+.last {
+    position: absolute;
+    bottom: 0;
+    right: 10vw;
+    width: 80vw;
+    /* margin-left: auto; */
+    color: #fff;
+    text-align: center;
+}
+
+.last>hr {
+    color: #fff;
+    text-decoration: none;
+}
